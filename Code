@@ -1,0 +1,257 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class StanleyParable : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("This is a story about a man named Stanley.");
+        Debug.Log("Stanely worked for a large company that dealt with finance.");
+        Debug.Log("His job was simple: he would push buttons on a keyboard as orders popped up on the screen.");
+        Debug.Log("Stanley did this everyday of every month of every year. Stanley was Happy.");
+        Debug.Log("But one day, Stanley noticed that something was very wrong. No one had shown up to interact with him at all.");
+        Debug.Log("He was shocked; nothing like this had happened to him before. He didn't know what to do.");
+
+        //choice 1
+        Debug.Log("To leave his office, press 'l'. To stay in his office, press 's'.");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //option 1 from choice 1
+        if (Input.GetKeyDown("l"))
+        {
+            Debug.Log("***************************************************************************************************");
+            Debug.Log("All of his coworkers were gone. What could that mean?");
+            Debug.Log("Stanely suspected that they were in the meeting room; perhaps he had simply missed a memo.");
+
+            //choice 2
+            Debug.Log("To go to the meeting room, press 'm'. To jump out the window, press 'j'.");
+        }
+            
+            //option 1 from choice 2
+            if (Input.GetKeyDown("m"))
+            {
+                Debug.Log("***************************************************************************************************");
+                Debug.Log("On his way to the meeting room, Stanley came to a set of 2 doors.");
+                Debug.Log("The left door was blue, and the right door was red.");
+
+                //choice 3
+                Debug.Log("To go through the blue door, press 'b'. To go through the red door, press 'r'.");
+            }
+
+                //option 1 from choice 3
+                if (Input.GetKeyDown("b"))
+                {
+                    Debug.Log("***************************************************************************************************");
+                    Debug.Log("Stanley entered the meeting room, yet there was not a single person here either.");
+                    Debug.Log("Feeling even more confused, Stanley went to his boss's office, thinking that maybe he'll find an answer there.");
+                    Debug.Log("On his way there, he came across a set of stairs that go both up and down.");
+                    
+                    //choice 5
+                    Debug.Log("To go up the stairs, press 'u'. To go down the stairs, press 'd'.");
+                }
+
+                    //option 1 from choice 5
+                    if (Input.GetKeyDown("u"))
+                    {
+                        Debug.Log("***************************************************************************************************");
+                        Debug.Log("Stepping into his manager's office, Stanley was once again stunned to discover not an indication of any human life");
+                        Debug.Log("Stanley noticed a keypad on the wall behind his boss's chair. Stanley pondered for a moment what the code could be. Then it hit him.");
+                        Debug.Log("He inputed the code and the bookshelf next to him started to move, revealing a hidden passage. What could this mean?");
+                        Debug.Log("As he made his way down the path, he came across two doors. One said 'Mind Control Facility, while the other said 'Escape'.");
+
+                        //choice 7
+                        Debug.Log("To go through the mind control facility door, press 'f'. To go through the escape door, press 'p'.");
+                    }
+
+                        //option 1 from choice 7
+                        if (Input.GetKeyDown("f"))
+                        {
+                            Debug.Log("***************************************************************************************************");
+                            Debug.Log("The lights rose on an enormous room packed with television screens. The monitors jumped to life, revealing a horrible secret.");
+                            Debug.Log("Each bore the munbers of an employee in the building, Stanley's co-workers.");
+                            Debug.Log("The lives of som many individuals reduced to images on a screen, and Stanley, one of them, eternally monitored in this place where freedom meant nothing.");
+                            Debug.Log("This mind control facility... it was too horrible to believe; it couldn't be true.");
+                            Debug.Log("Had Stanley really been in someone's control all this time? Was this the only reason he was happy with his boring job?");
+                            Debug.Log("No! He refused to believe it. He couldn't accept it; his own life in someone else's control? Never!");
+                            Debug.Log("But here was the proof. The heart of the operation. Controls labeled with emtions: 'happy' or 'sad' or 'content'. Walking, eating, working... all of it monitored and commanded from this very place.");
+                            Debug.Log("At that moment, Stanley decided that he would dismantle this operation once and for all. He marched over to the controls with new vigor in his step. Two buttons were present: 'on' and 'off'.");
+
+                            //choice 8
+                            Debug.Log("To press the on button, press 'z'. To press the off button, press 'a'.");
+                        }
+
+                            //option 1 from choice 8
+                            if (Input.GetKeyDown("z"))
+                            {
+                                Debug.Log("***************************************************************************************************");
+                                Debug.Log("Oh Stanley, you didn't just activite the controls, did you?");
+                                Debug.Log("After they kept you enslaved all these years you go and you try to take control of the machine for yourself, is that what you wanted? Control?");
+                                Debug.Log("Oh... Stanley. *sigh* I applaud your effort, I really do, but you need to understand; there's only so much that machine can do.");
+                                Debug.Log("You were supposed to let it go, turn the controls off, and leave.");
+                                Debug.Log("I you want to throw my story off track, you're going to have to do so much better than that. I'm afraid you don't have the power you think you do; for example, and I believe you'll find this pertinent:");
+                                Debug.Log("Stanley suddenly realized that he had just initiated the network's emergency detonation system. In the event that this machine is activated without proper DNA identification, nuclear detonators are set to explode, eliminating the entire complex.");
+                                Debug.Log("Oh the torture! What will our 'hero' do now? Will he find a way to deactivate the bomb in time? Spoiler alert: he won't. It's imppossible. This was your choice, and now you have to die with your consequences.");
+                                Debug.Log("Goodbye, Stanley. See you in Hell.");
+
+                                Debug.Log("GAME OVER!!! You pissed off the narrator to the point of blowing the entire building up. Way to go.");
+                                Debug.Log("Countdown Ending");
+                            }
+
+                            //option 2 from choice 8
+                            if (Input.GetKeyDown("a"))
+                            {
+                                Debug.Log("***************************************************************************************************");
+                                Debug.Log("(All the lights go out.) Blackness... and a rising chill of uncertainty... was it over?");
+                                Debug.Log("(A large door begins to open.) Yes! He had won. He had defeated the machine, unshackled himself from someone else's command.");
+                                Debug.Log("And, yet, even as the immense door slowly opened, Stanley reflected on how many puzzles still lay unsolved.");
+                                Debug.Log("Where had his coworkers gone? How had he been freed from the machine's grasp? What other mysteries did this strange building hold?");
+                                Debug.Log("But as sunlight streamed into the chamber, he realized none of this mattered to him. For it was not knowledge, or even power, that he had been seeking, but happiness.");
+                                Debug.Log("No longer would anyone tell him where to go, what to do, or how to feel. Whatever life he lives, it will be his. And that was all he needed to know.");
+                                Debug.Log("As Stanley stepped through the open door, he felt the cool breeze upon his skin, the feeling of liberation, the immense possibility of the new path before him.");
+                                Debug.Log("This was exactly the way, right now, that things were meant to happen.");
+                                Debug.Log("And Stanley was happy.");
+
+                                Debug.Log("CONGRATULATIONS!!! You have successfully left the complex, and shut down the mind control facility.");
+                                Debug.Log("Freedom Ending");
+                            }
+
+                        //option 2 from choice 7
+                        if (Input.GetKeyDown("p"))
+                        {
+                            Debug.Log("***************************************************************************************************");
+                            Debug.Log("Although this door had 'escape' written on it, the truth was that at the end of this hall, Stanley would meet his violent death.");
+                            Debug.Log("At some point, light no longer reached the darkness that enveloped Stanley. After a few moments, he felt himself faliing. He hit something metal.");
+                            Debug.Log("As the machine whirled into motion, and Stanley was inched closer and closer to his demise, he reflected that his life had been of no consequence whatsoever.");
+                            Debug.Log("Stanley can't see the bigger picture. He doesn't know the real story. Trapped forever in his narrow vision of what this world is.");
+                            Debug.Log("Perhaps his death was of no great loss, like plucking the eyeballs from a blind man.");
+                            Debug.Log("And so he resigned, and willingly accepted this violent end to his brief and shallow life. Farewell, Stanley.");
+
+                            Debug.Log("GAME OVER!!! You were crushed to death by a machine.");
+                            Debug.Log("Escape Ending");
+                        }
+
+                    //option 2 from choice 5
+                    if (Input.GetKeyDown("d"))
+                    {
+                        Debug.Log("***************************************************************************************************");
+                        Debug.Log("But Stanley couldn't do it. he considered the possibility of facing his boss, admitting he had left his post during work hours, he might be fired for that.");
+                        Debug.Log("All because he believed everyone had vanished? His boss would think he was crazy.");
+                        Debug.Log("And then something occured to Stanley: maybe, he thought to himself, maybe I am crazy. All of my coworkers blinking mysteriously out of existance in a single moment for no reason at all?");
+                        Debug.Log("None of it made any logical sense. No, Stanley said to himself, this is all too strange, this can't be real, and at last he came to a conclusion that had been on the tip of his tongue, he just hadn't fopund the words for it.");
+                        Debug.Log("I'm dreaming! he yelled, This is all a dream! But how was he remaining so lucid? And then perhaps the strangest question of them all entered Stanley's head, one he was amazed he hadn't asked himself sooner.");
+                        Debug.Log("Why is there a voice in my head, dictating everything that I'm doing and thinking?");
+                        Debug.Log("Now the voice was describing itself being considered by Stanley, who found it particularly strange. I'm dreaming about a voice describing me thinking about how it's describing my thoughts, he thought!");
+                        Debug.Log("All of this was getting to be too much for Stanley. He curled up into a ball and closed his eyes. This is all a dream, he thought. I am okay.");
+                        Debug.Log("When he opened his eyes, he realized he was still on the floor curled up in a ball in the same room.");
+                        Debug.Log("Stanley began screaming. Please someone wake me up! My name is Stanley! I have a boss! I have an office! I am real!");
+                        Debug.Log("Please just someone tell me I'm real! I must be real! I must be! Can anyone hear my voice!? Who am I? Who am I!?");
+                        Debug.Log("And everything went black.");
+
+                        Debug.Log("GAME OVER!!! You died in the basement going mad, and gave yourself a stroke.");
+                        Debug.Log("Madness Ending");
+                    }
+
+                //option 2 from choice 3
+                if (Input.GetKeyDown("r"))
+                {
+                    Debug.Log("***************************************************************************************************");
+                    Debug.Log("This was not the correct way to the meeting room, and Stanley knew it perfectly well. Perhaps he wanted to stop by the employee lounge first, just to admire it.");
+                    Debug.Log("As Stanley entered the lounge, he felt light-headed. Butterflies in his stomach. Giddy in a way he had never known before.");
+                    Debug.Log("Was it this room? A connection between the two? Could a man... love a room? I mean... truly... truly, deeply... madly... love?");
+                    Debug.Log("But at last, he had enough of the amazing room, and so he figured he could take the detour to get to the meeting room. But maybe the elevator would be faster?");
+
+                    //choice 6
+                    Debug.Log("To take the detour, press 'b'. To take the elevator, press 'e'. To ignore the other paths, press 'i'.");
+                }
+
+                    //option 2 from choice 6
+                    if (Input.GetKeyDown("e"))
+                    {
+                        Debug.Log("***************************************************************************************************");
+                        Debug.Log("Stanley opted to ride the elevator, which, if he would have noticed, only went down, not up.");
+                        Debug.Log("And so, Stanley descended downwards, getting further off track. Now the only way to get back on track is...hmm.");
+                        Debug.Log("Uh, one moment please. (Papers begin to rustle.) Ah! Okay so you need to go left.");
+                        Debug.Log("Wait wait wait wait. Go right; my mistake.");
+                        Debug.Log("Pause! Not to the right, what on Earth was I thinking. You actually need to go... uh... (more papers rustle) um... hold on.");
+                        Debug.Log("... oh dear. Well, congrats. You got us lost. I didn't expect this; this wasn't planned!");
+                        Debug.Log("There was a whole hero arc story that was written specifically for you! And you messed it all up. Are you happy!?");
+                        Debug.Log("(A door randomly appears.) Hmm? What's this? That wasn't there before. I wonder what's on the other side...wait.");
+                        Debug.Log("Stanley, don't you dare open that door. Don't even think about it, no-!");
+                        Debug.Log("(You opened the door.)");
+
+                        Debug.Log("Game Over?... uh, what am I supposed to say here? What exactly happened? This wasn't in the script....");
+                        Debug.Log("Confusion Ending");
+                    }
+
+                    //option 3 from choice 6
+                    if (Input.GetKeyDown("i"))
+                    {
+                        Debug.Log("***************************************************************************************************");
+                        Debug.Log("Stanley was so bad at following directions it's incredible he wasn't fired years ago.");
+                        Debug.Log("He entered a big room most likely used for deliveries. Stanley stood high above the docking bay, feeling determined.");
+                        Debug.Log("(Stanley gets closer to the ledge.) Um, Stanley, what are you doing?");
+                        Debug.Log("(Stanley jumps.) Oh.");
+                        Debug.Log("*Ahem* But in his eagerness to prove that he was in control of the story and no one gets to tell him what to do, Stanley leapt from the platform and plunged to his death.");
+                        Debug.Log("Good job Stanley, everyone thinks you are very powerful.");
+
+                        Debug.Log("GAME OVER!!! You jumped. Dumbass.");
+                        Debug.Log("Powerful Ending");
+                    }
+
+            //option 2 from choice 2
+            if (Input.GetKeyDown("j"))
+            {
+                Debug.Log("***************************************************************************************************");
+                Debug.Log("At first, Stanley assumed he had broken the map, until he saw this narration and realized it was a part of the game's design all along. he then praised the game for its insightful and witty commentary into the nature of video game structure and its examination of structural narrative tropes.");
+                Debug.Log("So... what now? You're out of bounds; there's nothing else to do. You'll get bored really quick.");
+                Debug.Log("Hmm... I have a question. Are you enjoying this right now? In this empty space? I see no point in it. Answer yes or no.");
+
+                //choice 4
+                Debug.Log("To respond yes, press 'y'. To respond no, press 'n'.");
+            }
+                
+                //option 1 from choice 4
+                if (Input.GetKeyDown("y"))
+                {
+                    Debug.Log("***************************************************************************************************");
+                    Debug.Log("You are enjoying yourself? Well let's continue! But what do you think would've happened had you said no? Do you think it would've been particularly different?");
+                    Debug.Log("Now that I think about it, will it be worth it for you to restart, and then come BACK here, just to do the other option? What if the other option is even longer? How long will you spend in total just to hear all the narration!?");
+                    Debug.Log("Or- oh this is awesome!- perhaps you've just played the other option and now you've come too see what happens in this one!");
+                    Debug.Log("In either case, you're stuck here until you restart, so let us enjoy each other's company. Cheers.");
+
+                    Debug.Log("GAME OVER!!! You clipped out of bounds somehow and were stranded there forever. At least you had the narrator.");
+                    Debug.Log("Out of Map Ending: 1/2");
+                }
+
+                //option 2 from choice 4
+                if (Input.GetKeyDown("n"))
+                {
+                    Debug.Log("***************************************************************************************************");
+                    Debug.Log("I figured as such. Well I don't know how to say this politely but you could literally restart the game any old time you want. Like right now!");
+                    Debug.Log("What keeps you from restarting, hmm? Do you want to hear every little bit of dialouge just so you could get 100%?");
+                    Debug.Log("I was going to sing you a song just to make your life unbearable, but that's what you want, more dialouge. Well tough luck.");
+                    Debug.Log("(Narrator has left the chat.)");
+
+                    Debug.Log("GAME OVER!!! You clipped out of bounds somehow and were standed there forever... alone.");
+                    Debug.Log("Out of Map Ending: 2/2");
+                }
+
+        //option 2 from choice 1
+        if (Input.GetKeyDown("s"))
+        {
+            Debug.Log("***************************************************************************************************");
+            Debug.Log("But Stanley simply couldn't handle the pressure. What if he had to make a decision? What if a crucial outcome fell under his responsibility?");
+            Debug.Log("The right thing to do now is to wait, Stanley thought. Nothing will hurt me. Nothing will break me.");
+            Debug.Log("Stanley waited. Hours passed. Then days. Had years gone by? He no longer had the ability to tell.");
+            Debug.Log("But the one thing he knew, for sure, beyond any doubt, was that if he waited long enough, the answers would come. Eventually, some day, they would arrive... right?");
+
+            Debug.Log("GAME OVER!!! You died in your office waiting for someone to show up.");
+            Debug.Log("Coward Ending");
+        }
+    }
+}
